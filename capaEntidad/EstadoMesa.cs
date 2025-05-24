@@ -1,12 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace capaEntidad
 {
-    class Comanda
+    public class EstadoMesa
     {
+        public int EstadoMesaId { get; set; }
+        [Required]
+        public string Descripcion { get; set; }
+        public ICollection<Mesa> Mesas { get; set; }
+
     }
 }
