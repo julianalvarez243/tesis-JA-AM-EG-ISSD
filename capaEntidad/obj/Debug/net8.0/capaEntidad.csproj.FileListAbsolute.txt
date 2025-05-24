@@ -10,3 +10,6 @@ C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEntidad\obj\Debu
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEntidad\obj\Debug\net8.0\refint\capaEntidad.dll
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEntidad\obj\Debug\net8.0\capaEntidad.pdb
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEntidad\obj\Debug\net8.0\ref\capaEntidad.dll
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEntidad\bin\Debug\net8.0\capaEntidad.runtimeconfig.json
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEntidad\obj\Debug\net8.0\capaEntidad.csproj.AssemblyReference.cache
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEntidad\obj\Debug\net8.0\capaEntidad.genruntimeconfig.cache

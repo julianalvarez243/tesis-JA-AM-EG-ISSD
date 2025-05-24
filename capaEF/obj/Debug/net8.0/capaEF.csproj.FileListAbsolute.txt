@@ -13,3 +13,6 @@ C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEF\obj\Debug\net
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEF\obj\Debug\net8.0\capaEF.pdb
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEF\obj\Debug\net8.0\capaEF.genruntimeconfig.cache
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEF\obj\Debug\net8.0\ref\capaEF.dll
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEF\bin\Debug\net8.0\capaEntidad.dll
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEF\bin\Debug\net8.0\capaEntidad.pdb
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaEF\obj\Debug\net8.0\capaEF.csproj.Up2Date

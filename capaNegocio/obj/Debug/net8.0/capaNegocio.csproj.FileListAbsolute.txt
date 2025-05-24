@@ -10,3 +10,6 @@ C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\obj\Debu
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\obj\Debug\net8.0\refint\capaNegocio.dll
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\obj\Debug\net8.0\capaNegocio.pdb
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\obj\Debug\net8.0\ref\capaNegocio.dll
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\bin\Debug\net8.0\capaNegocio.runtimeconfig.json
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\obj\Debug\net8.0\capaNegocio.csproj.AssemblyReference.cache
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\obj\Debug\net8.0\capaNegocio.genruntimeconfig.cache
