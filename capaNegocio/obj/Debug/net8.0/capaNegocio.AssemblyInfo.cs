@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("capaNegocio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be9745010a3cee079bdb7053b408fd54e3657b22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38749fdb1480d696eb289e957dd9b0c4a0f770dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("capaNegocio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("capaNegocio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -17,7 +17,7 @@ namespace capaEF.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.5")
+                .HasAnnotation("ProductVersion", "9.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -42,7 +42,7 @@ namespace capaEF.Migrations
 
                     b.HasKey("BebidaId");
 
-                    b.ToTable("Bebidas");
+                    b.ToTable("Bebida");
                 });
 
             modelBuilder.Entity("capaEntidad.Caja", b =>
@@ -66,7 +66,7 @@ namespace capaEF.Migrations
 
                     b.HasIndex("EstadoCajaId");
 
-                    b.ToTable("Cajas");
+                    b.ToTable("Caja");
                 });
 
             modelBuilder.Entity("capaEntidad.Comanda", b =>
@@ -105,7 +105,7 @@ namespace capaEF.Migrations
 
                     b.HasIndex("MesaId");
 
-                    b.ToTable("Comandas");
+                    b.ToTable("Comanda");
                 });
 
             modelBuilder.Entity("capaEntidad.Comida", b =>
@@ -128,7 +128,7 @@ namespace capaEF.Migrations
 
                     b.HasKey("ComidaId");
 
-                    b.ToTable("Comidas");
+                    b.ToTable("Comida");
                 });
 
             modelBuilder.Entity("capaEntidad.EstadoCaja", b =>
@@ -145,7 +145,7 @@ namespace capaEF.Migrations
 
                     b.HasKey("EstadoCajaId");
 
-                    b.ToTable("EstadosCaja");
+                    b.ToTable("EstadoCaja");
                 });
 
             modelBuilder.Entity("capaEntidad.EstadoComanda", b =>
@@ -162,7 +162,7 @@ namespace capaEF.Migrations
 
                     b.HasKey("EstadoComandaId");
 
-                    b.ToTable("EstadosComanda");
+                    b.ToTable("EstadoComanda");
                 });
 
             modelBuilder.Entity("capaEntidad.EstadoMesa", b =>
@@ -179,7 +179,7 @@ namespace capaEF.Migrations
 
                     b.HasKey("EstadoMesaId");
 
-                    b.ToTable("EstadosMesa");
+                    b.ToTable("EstadoMesa");
                 });
 
             modelBuilder.Entity("capaEntidad.EstadoMozo", b =>
@@ -196,7 +196,7 @@ namespace capaEF.Migrations
 
                     b.HasKey("EstadoMozoId");
 
-                    b.ToTable("EstadosMozo");
+                    b.ToTable("EstadoMozo");
                 });
 
             modelBuilder.Entity("capaEntidad.Factura", b =>
@@ -220,7 +220,7 @@ namespace capaEF.Migrations
 
                     b.HasIndex("ComandaId");
 
-                    b.ToTable("Facturas");
+                    b.ToTable("Factura");
                 });
 
             modelBuilder.Entity("capaEntidad.Mesa", b =>
@@ -251,7 +251,7 @@ namespace capaEF.Migrations
 
                     b.HasIndex("TamanioId");
 
-                    b.ToTable("Mesas");
+                    b.ToTable("Mesa");
                 });
 
             modelBuilder.Entity("capaEntidad.Mozo", b =>
@@ -273,7 +273,7 @@ namespace capaEF.Migrations
 
                     b.HasIndex("EstadoMozoId");
 
-                    b.ToTable("Mozos");
+                    b.ToTable("Mozo");
                 });
 
             modelBuilder.Entity("capaEntidad.Tamanio", b =>
@@ -292,7 +292,28 @@ namespace capaEF.Migrations
 
                     b.HasKey("TamanioId");
 
-                    b.ToTable("Tamanios");
+                    b.ToTable("Tamanio");
+                });
+
+            modelBuilder.Entity("capaEntidad.Usuario", b =>
+                {
+                    b.Property<int>("UsuarioId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UsuarioId"));
+
+                    b.Property<string>("Contrasenia")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NombreUsuario")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UsuarioId");
+
+                    b.ToTable("Usuario");
                 });
 
             modelBuilder.Entity("capaEntidad.Caja", b =>
