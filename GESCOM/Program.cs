@@ -5,6 +5,7 @@ using GESCOM;
 using capaEF; // Cambiá por el namespace real donde esté AppDbContext
 using System;
 using System.Windows.Forms;
+using WinFormsApp2;
 
 namespace GESCOM
 {
@@ -39,7 +40,17 @@ namespace GESCOM
 
             // Iniciar la app WinForms
             ApplicationConfiguration.Initialize();
-            Application.Run(new Inicio());
+            Application.Run(new Login());
         }
+    }
+
+    public class GescomDBContext : DbContext
+    {
+        public GescomDBContext(DbContextOptions<GescomDBContext> options)
+            : base(options)
+        {
+        }
+
+        // DbSets para tus entidades
     }
 }
