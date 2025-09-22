@@ -1,4 +1,5 @@
-﻿using System;
+﻿using capaEntidad;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,19 +13,19 @@ namespace WinFormsApp2
 {
     public partial class Gestion_de_mesas : Form
     {
-        public Gestion_de_mesas()
+        private Usuario usuarioActual;
+        public Gestion_de_mesas(Usuario user)
         {
             InitializeComponent();
+            usuarioActual = user;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnVolver_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            this.Hide();
+            GestionInformes main = new GestionInformes(usuarioActual);
+            main.WindowState = FormWindowState.Maximized;
+            main.Show();
         }
     }
 }

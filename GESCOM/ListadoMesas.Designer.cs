@@ -50,19 +50,20 @@
             tableLayoutPanel1.ColumnCount = 3;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 4.4404974F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 95.5595F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 21F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 30F));
             tableLayoutPanel1.Controls.Add(dataGridView4, 1, 1);
             tableLayoutPanel1.Controls.Add(panel2, 1, 0);
             tableLayoutPanel1.Controls.Add(groupBox1, 1, 2);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 4;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 18.32061F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 81.67939F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 61F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(484, 461);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 102F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 33F));
+            tableLayoutPanel1.Size = new Size(1167, 768);
             tableLayoutPanel1.TabIndex = 3;
             // 
             // dataGridView4
@@ -70,74 +71,90 @@
             dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView4.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumn9, dataGridViewTextBoxColumn10, dataGridViewTextBoxColumn11, dataGridViewTextBoxColumn12 });
             dataGridView4.Dock = DockStyle.Fill;
-            dataGridView4.Location = new Point(23, 72);
+            dataGridView4.Location = new Point(54, 120);
+            dataGridView4.Margin = new Padding(4, 5, 4, 5);
             dataGridView4.Name = "dataGridView4";
-            dataGridView4.Size = new Size(436, 304);
+            dataGridView4.RowHeadersWidth = 62;
+            dataGridView4.Size = new Size(1078, 507);
             dataGridView4.TabIndex = 11;
             // 
             // dataGridViewTextBoxColumn9
             // 
             dataGridViewTextBoxColumn9.HeaderText = "id";
+            dataGridViewTextBoxColumn9.MinimumWidth = 8;
             dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            dataGridViewTextBoxColumn9.Width = 150;
             // 
             // dataGridViewTextBoxColumn10
             // 
             dataGridViewTextBoxColumn10.HeaderText = "Capacidad";
+            dataGridViewTextBoxColumn10.MinimumWidth = 8;
             dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            dataGridViewTextBoxColumn10.Width = 150;
             // 
             // dataGridViewTextBoxColumn11
             // 
             dataGridViewTextBoxColumn11.HeaderText = "Ubicacion";
+            dataGridViewTextBoxColumn11.MinimumWidth = 8;
             dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            dataGridViewTextBoxColumn11.Width = 150;
             // 
             // dataGridViewTextBoxColumn12
             // 
             dataGridViewTextBoxColumn12.HeaderText = "Disponibilidad";
+            dataGridViewTextBoxColumn12.MinimumWidth = 8;
             dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            dataGridViewTextBoxColumn12.Width = 150;
             // 
             // panel2
             // 
             panel2.Controls.Add(label1);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(23, 3);
+            panel2.Location = new Point(54, 5);
+            panel2.Margin = new Padding(4, 5, 4, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(436, 63);
+            panel2.Size = new Size(1078, 105);
             panel2.TabIndex = 6;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 28F);
-            label1.Location = new Point(70, 6);
+            label1.Location = new Point(100, 10);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(308, 51);
+            label1.Size = new Size(456, 74);
             label1.TabIndex = 1;
             label1.Text = "Listado de Mesas";
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(button1);
-            groupBox1.Location = new Point(23, 382);
+            groupBox1.Location = new Point(54, 637);
+            groupBox1.Margin = new Padding(4, 5, 4, 5);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(409, 55);
+            groupBox1.Padding = new Padding(4, 5, 4, 5);
+            groupBox1.Size = new Size(584, 92);
             groupBox1.TabIndex = 7;
             groupBox1.TabStop = false;
             // 
             // button1
             // 
-            button1.Location = new Point(328, 26);
+            button1.Location = new Point(469, 43);
+            button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(107, 38);
             button1.TabIndex = 4;
             button1.Text = "Volver";
             button1.UseVisualStyleBackColor = true;
             // 
             // ListadoMesas
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(484, 461);
+            ClientSize = new Size(1167, 768);
             Controls.Add(tableLayoutPanel1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "ListadoMesas";
             Text = "ListadoMesas";
             tableLayoutPanel1.ResumeLayout(false);

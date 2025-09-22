@@ -1,4 +1,5 @@
-﻿using System;
+﻿using capaEntidad;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,11 @@ namespace WinFormsApp2
 {
     public partial class AgregarComanda : Form
     {
-        public AgregarComanda()
+        private Usuario usuarioActual;
+        public AgregarComanda(Usuario user)
         {
             InitializeComponent();
+            usuarioActual = user;  
         }
 
         private void label4_Click(object sender, EventArgs e)

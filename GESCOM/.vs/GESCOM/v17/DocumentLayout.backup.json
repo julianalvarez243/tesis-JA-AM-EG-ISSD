@@ -3,10 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\GESCOM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaEF\\Migrations\\20250906180312_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84AD6DE1-937C-44D8-AEFB-CC0A4438AF2A}|..\\capaNegocio\\capaNegocio.csproj|c:\\users\\julia\\desktop\\me\\facultad\\tesis dev\\gescom c# .net\\capanegocio\\usuarionegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CC07EED-D7EB-40E9-B850-B91F7AB6688D}|..\\capaEF\\capaEF.csproj|c:\\users\\julia\\desktop\\me\\facultad\\tesis dev\\gescom c# .net\\capaef\\gescomdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7298CCDA-C212-4453-AA12-7D41D5D33E67}|capaPresentacion.csproj|c:\\users\\julia\\desktop\\me\\facultad\\tesis dev\\gescom c# .net\\gescom\\gestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7298CCDA-C212-4453-AA12-7D41D5D33E67}|capaPresentacion.csproj|solutionrelative:gestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7298CCDA-C212-4453-AA12-7D41D5D33E67}|capaPresentacion.csproj|c:\\users\\julia\\desktop\\me\\facultad\\tesis dev\\gescom c# .net\\gescom\\gestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7298CCDA-C212-4453-AA12-7D41D5D33E67}|capaPresentacion.csproj|solutionrelative:gestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,34 +21,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250906180312_v3.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaEF\\Migrations\\20250906180312_v3.cs",
-              "RelativeDocumentMoniker": "..\\capaEF\\Migrations\\20250906180312_v3.cs",
-              "ToolTip": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaEF\\Migrations\\20250906180312_v3.cs",
-              "RelativeToolTip": "..\\capaEF\\Migrations\\20250906180312_v3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T18:03:12.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GescomDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaEF\\GescomDBContext.cs",
-              "RelativeDocumentMoniker": "..\\capaEF\\GescomDBContext.cs",
-              "ToolTip": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaEF\\GescomDBContext.cs",
-              "RelativeToolTip": "..\\capaEF\\GescomDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T17:44:35.928Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -67,6 +46,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "usuarioNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaNegocio\\usuarioNegocio.cs",
+              "RelativeDocumentMoniker": "..\\capaNegocio\\usuarioNegocio.cs",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaNegocio\\usuarioNegocio.cs",
+              "RelativeToolTip": "..\\capaNegocio\\usuarioNegocio.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAiwH8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T18:44:05.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestionUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\GESCOM\\GestionUsuarios.cs",
+              "RelativeDocumentMoniker": "GestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\GESCOM\\GestionUsuarios.cs",
+              "RelativeToolTip": "GestionUsuarios.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAxwGkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T18:42:47.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestionUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\GESCOM\\GestionUsuarios.cs",
+              "RelativeDocumentMoniker": "GestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\GESCOM\\GestionUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GestionUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T18:24:00.917Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

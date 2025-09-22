@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "9.0.8",
           "Microsoft.Extensions.Configuration.Json": "9.0.8",
           "Microsoft.Extensions.DependencyInjection": "9.0.8",
-          "capaEF": "1.0.0"
+          "capaEntidad": "1.0.0",
+          "capaNegocio": "1.0.0"
         },
         "runtime": {
           "capaPresentacion.dll": {}
@@ -1031,6 +1032,21 @@
           "System.Drawing.Common": "6.0.0"
         }
       },
+      "capaDatos/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.8",
+          "Microsoft.Extensions.Configuration.Json": "9.0.8",
+          "Microsoft.Extensions.DependencyInjection": "9.0.8",
+          "capaEF": "1.0.0",
+          "capaEntidad": "1.0.0"
+        },
+        "runtime": {
+          "capaDatos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "capaEF/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.8",
@@ -1054,6 +1070,21 @@
         },
         "runtime": {
           "capaEntidad.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "capaNegocio/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.8",
+          "Microsoft.Extensions.Configuration.Json": "9.0.8",
+          "Microsoft.Extensions.DependencyInjection": "9.0.8",
+          "capaDatos": "1.0.0",
+          "capaEntidad": "1.0.0"
+        },
+        "runtime": {
+          "capaNegocio.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1662,12 +1693,22 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
+    "capaDatos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "capaEF/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "capaEntidad/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "capaNegocio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

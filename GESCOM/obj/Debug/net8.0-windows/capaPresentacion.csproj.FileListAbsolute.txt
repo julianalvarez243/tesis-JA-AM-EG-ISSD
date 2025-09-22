@@ -157,7 +157,6 @@ C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net8.0-windows\WinFormsApp2.AgregarUsuario.resources
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net8.0-windows\WinFormsApp2.ConsultarComanda.resources
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net8.0-windows\WinFormsApp2.ConsultarMesa.resources
-C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net8.0-windows\WinFormsApp2.EditarUsuario.resources
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net8.0-windows\WinFormsApp2.EliminarBebida.resources
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net8.0-windows\WinFormsApp2.EliminarComida.resources
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net8.0-windows\WinFormsApp2.EliminarMesa.resources
@@ -176,3 +175,8 @@ C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net8.0-windows\WinFormsApp2.ModificarMesa.resources
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net8.0-windows\capaPresentacion.Properties.Resources.resources
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\obj\Debug\net8.0-windows\WinFormsApp2.ModificarUsuario.resources
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\bin\Debug\net8.0-windows\capaDatos.dll
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\bin\Debug\net8.0-windows\capaNegocio.dll
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\bin\Debug\net8.0-windows\capaNegocio.pdb
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\GESCOM\bin\Debug\net8.0-windows\capaDatos.pdb

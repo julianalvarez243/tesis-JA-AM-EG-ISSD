@@ -13,3 +13,10 @@ C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\obj\Debu
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\bin\Debug\net8.0\capaNegocio.runtimeconfig.json
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\obj\Debug\net8.0\capaNegocio.csproj.AssemblyReference.cache
 C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\obj\Debug\net8.0\capaNegocio.genruntimeconfig.cache
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\bin\Debug\net8.0\capaDatos.dll
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\bin\Debug\net8.0\capaEF.dll
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\bin\Debug\net8.0\capaEntidad.dll
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\bin\Debug\net8.0\capaDatos.pdb
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\bin\Debug\net8.0\capaEntidad.pdb
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\bin\Debug\net8.0\capaEF.pdb
+C:\Users\julia\Desktop\me\facultad\TESIS DEV\GESCOM C# .NET\capaNegocio\obj\Debug\net8.0\capaNego.836DF9B9.Up2Date

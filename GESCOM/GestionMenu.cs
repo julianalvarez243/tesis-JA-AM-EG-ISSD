@@ -1,4 +1,5 @@
-﻿using System;
+﻿using capaEntidad;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,14 +13,29 @@ namespace WinFormsApp2
 {
     public partial class GestionMenu : Form
     {
-        public GestionMenu()
+        private Usuario usuarioActual;
+        public GestionMenu(Usuario user)
         {
             InitializeComponent();
+            usuarioActual = user;
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        private void btnVolver_Click(object sender, EventArgs e)
         {
+            this.Close();
+            GestionInformes main = new GestionInformes(usuarioActual);
+            main.WindowState = FormWindowState.Maximized;
+            main.Show();
 
+
+        }
+
+        private void btnVolver2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            GestionInformes main = new GestionInformes(usuarioActual);
+            main.WindowState = FormWindowState.Maximized;
+            main.Show();
         }
     }
 }

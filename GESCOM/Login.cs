@@ -1,3 +1,9 @@
+﻿using capaEF;
+using capaEntidad;
+using System;
+using System.Linq;
+using System.Windows.Forms;
+
 namespace WinFormsApp2
 {
     public partial class Login : Form
@@ -7,44 +13,36 @@ namespace WinFormsApp2
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
+            string usuario = txtNombreUsuario.Text.Trim();
+            string password = txtContrasenia.Text;
 
-        }
+            using (var db = new GescomDBContext())
+            {
+                var user = db.Usuario
+                             .FirstOrDefault(u => u.NombreUsuario == usuario
+                                               && u.Contrasenia == password);
 
-        private void label1_Click(object sender, EventArgs e)
-        {
+                if (user != null)
+                {
+                    this.Hide();
+                    // Abrir formulario principal
+                    GestionInformes main = new GestionInformes(user);
+                    main.WindowState = FormWindowState.Maximized;
+                    main.Show();
 
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
+                }
+                else
+                {
+                    MessageBox.Show("❌ Usuario o contraseña incorrectos");
+                }
+            }
         }
     }
 }

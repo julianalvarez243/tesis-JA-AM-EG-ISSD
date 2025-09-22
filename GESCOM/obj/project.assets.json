@@ -1724,6 +1724,23 @@
           }
         }
       },
+      "capaDatos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.8",
+          "Microsoft.Extensions.Configuration.Json": "9.0.8",
+          "Microsoft.Extensions.DependencyInjection": "9.0.8",
+          "capaEF": "1.0.0",
+          "capaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/capaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/capaDatos.dll": {}
+        }
+      },
       "capaEF/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1754,6 +1771,23 @@
         },
         "runtime": {
           "bin/placeholder/capaEntidad.dll": {}
+        }
+      },
+      "capaNegocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.8",
+          "Microsoft.Extensions.Configuration.Json": "9.0.8",
+          "Microsoft.Extensions.DependencyInjection": "9.0.8",
+          "capaDatos": "1.0.0",
+          "capaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/capaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/capaNegocio.dll": {}
         }
       }
     }
@@ -5037,6 +5071,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "capaDatos/1.0.0": {
+      "type": "project",
+      "path": "../capaDatos/capaDatos.csproj",
+      "msbuildProject": "../capaDatos/capaDatos.csproj"
+    },
     "capaEF/1.0.0": {
       "type": "project",
       "path": "../capaEF/capaEF.csproj",
@@ -5046,6 +5085,11 @@
       "type": "project",
       "path": "../capaEntidad/capaEntidad.csproj",
       "msbuildProject": "../capaEntidad/capaEntidad.csproj"
+    },
+    "capaNegocio/1.0.0": {
+      "type": "project",
+      "path": "../capaNegocio/capaNegocio.csproj",
+      "msbuildProject": "../capaNegocio/capaNegocio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5054,7 +5098,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.8",
       "Microsoft.Extensions.Configuration.Json >= 9.0.8",
       "Microsoft.Extensions.DependencyInjection >= 9.0.8",
-      "capaEF >= 1.0.0"
+      "capaEntidad >= 1.0.0",
+      "capaNegocio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5090,8 +5135,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaEF\\capaEF.csproj": {
-              "projectPath": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaEF\\capaEF.csproj"
+            "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaEntidad\\capaEntidad.csproj": {
+              "projectPath": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaEntidad\\capaEntidad.csproj"
+            },
+            "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaNegocio\\capaNegocio.csproj": {
+              "projectPath": "C:\\Users\\julia\\Desktop\\me\\facultad\\TESIS DEV\\GESCOM C# .NET\\capaNegocio\\capaNegocio.csproj"
             }
           }
         }
@@ -5150,7 +5198,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

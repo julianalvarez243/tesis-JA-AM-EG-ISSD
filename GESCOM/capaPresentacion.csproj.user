@@ -22,7 +22,7 @@
     <Compile Update="ConsultarMesa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="EditarUsuario.cs">
+    <Compile Update="ModificarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="EliminarBebida.cs">

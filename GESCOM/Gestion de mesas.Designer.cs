@@ -35,10 +35,10 @@
             Ubicacion = new DataGridViewTextBoxColumn();
             Disponibilidad = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
-            button4 = new Button();
-            button3 = new Button();
-            button1 = new Button();
-            button2 = new Button();
+            btnVolver = new Button();
+            btnEliminar = new Button();
+            btnAgregar = new Button();
+            btnEditar = new Button();
             panel2 = new Panel();
             label1 = new Label();
             tableLayoutPanel1.SuspendLayout();
@@ -53,19 +53,20 @@
             tableLayoutPanel1.ColumnCount = 3;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 4.4404974F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 95.5595F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 49F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 70F));
             tableLayoutPanel1.Controls.Add(dataGridView1, 1, 1);
             tableLayoutPanel1.Controls.Add(panel1, 1, 2);
             tableLayoutPanel1.Controls.Add(panel2, 1, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 4;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 18.32061F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 81.67939F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 61F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(1264, 681);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 102F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 33F));
+            tableLayoutPanel1.Size = new Size(1806, 1050);
             tableLayoutPanel1.TabIndex = 1;
             // 
             // dataGridView1
@@ -73,108 +74,125 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Capacidad, Ubicacion, Disponibilidad });
             dataGridView1.Dock = DockStyle.Fill;
-            dataGridView1.Location = new Point(56, 112);
+            dataGridView1.Location = new Point(81, 172);
+            dataGridView1.Margin = new Padding(4, 5, 4, 5);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(1155, 484);
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(1650, 737);
             dataGridView1.TabIndex = 2;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // Column1
             // 
             Column1.HeaderText = "id";
+            Column1.MinimumWidth = 8;
             Column1.Name = "Column1";
+            Column1.Width = 150;
             // 
             // Capacidad
             // 
             Capacidad.HeaderText = "Capacidad";
+            Capacidad.MinimumWidth = 8;
             Capacidad.Name = "Capacidad";
+            Capacidad.Width = 150;
             // 
             // Ubicacion
             // 
             Ubicacion.HeaderText = "Ubicacion";
+            Ubicacion.MinimumWidth = 8;
             Ubicacion.Name = "Ubicacion";
+            Ubicacion.Width = 150;
             // 
             // Disponibilidad
             // 
             Disponibilidad.HeaderText = "Disponibilidad";
+            Disponibilidad.MinimumWidth = 8;
             Disponibilidad.Name = "Disponibilidad";
+            Disponibilidad.Width = 150;
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(236, 232, 230);
-            panel1.Controls.Add(button4);
-            panel1.Controls.Add(button3);
-            panel1.Controls.Add(button1);
-            panel1.Controls.Add(button2);
+            panel1.Controls.Add(btnVolver);
+            panel1.Controls.Add(btnEliminar);
+            panel1.Controls.Add(btnAgregar);
+            panel1.Controls.Add(btnEditar);
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(56, 602);
+            panel1.Location = new Point(81, 919);
+            panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1155, 55);
+            panel1.Size = new Size(1650, 92);
             panel1.TabIndex = 5;
             // 
-            // button4
+            // btnVolver
             // 
-            button4.Location = new Point(369, 16);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 6;
-            button4.Text = "Eliminar";
-            button4.UseVisualStyleBackColor = true;
+            btnVolver.Location = new Point(527, 27);
+            btnVolver.Margin = new Padding(4, 5, 4, 5);
+            btnVolver.Name = "btnVolver";
+            btnVolver.Size = new Size(107, 38);
+            btnVolver.TabIndex = 6;
+            btnVolver.Text = "Volver";
+            btnVolver.UseVisualStyleBackColor = true;
+            btnVolver.Click += btnVolver_Click;
             // 
-            // button3
+            // btnEliminar
             // 
-            button3.Location = new Point(256, 16);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 5;
-            button3.Text = "Consultar";
-            button3.UseVisualStyleBackColor = true;
+            btnEliminar.Location = new Point(366, 27);
+            btnEliminar.Margin = new Padding(4, 5, 4, 5);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(107, 38);
+            btnEliminar.TabIndex = 5;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnAgregar
             // 
-            button1.Location = new Point(21, 16);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 3;
-            button1.Text = "Agregar";
-            button1.UseVisualStyleBackColor = true;
+            btnAgregar.Location = new Point(30, 27);
+            btnAgregar.Margin = new Padding(4, 5, 4, 5);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(107, 38);
+            btnAgregar.TabIndex = 3;
+            btnAgregar.Text = "Agregar";
+            btnAgregar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnEditar
             // 
-            button2.Location = new Point(143, 16);
-            button2.Name = "button2";
-            button2.Size = new Size(68, 23);
-            button2.TabIndex = 4;
-            button2.Text = "Editar";
-            button2.UseVisualStyleBackColor = true;
+            btnEditar.Location = new Point(204, 27);
+            btnEditar.Margin = new Padding(4, 5, 4, 5);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(97, 38);
+            btnEditar.TabIndex = 4;
+            btnEditar.Text = "Editar";
+            btnEditar.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             panel2.Controls.Add(label1);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(56, 3);
+            panel2.Location = new Point(81, 5);
+            panel2.Margin = new Padding(4, 5, 4, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1155, 103);
+            panel2.Size = new Size(1650, 157);
             panel2.TabIndex = 6;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 30F);
-            label1.Location = new Point(21, 20);
+            label1.Location = new Point(30, 33);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(340, 54);
+            label1.Size = new Size(507, 81);
             label1.TabIndex = 1;
             label1.Text = "Gestion De Mesas";
-            label1.Click += label1_Click;
             // 
             // Gestion_de_mesas
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(236, 232, 221);
-            ClientSize = new Size(1264, 681);
+            ClientSize = new Size(1806, 1050);
             Controls.Add(tableLayoutPanel1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Gestion_de_mesas";
             Text = "Gestion de Mesas";
             tableLayoutPanel1.ResumeLayout(false);
@@ -190,15 +208,15 @@
         private TableLayoutPanel tableLayoutPanel1;
         private DataGridView dataGridView1;
         private Panel panel1;
-        private Button button3;
-        private Button button1;
-        private Button button2;
+        private Button btnEliminar;
+        private Button btnAgregar;
+        private Button btnEditar;
         private Panel panel2;
         private Label label1;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Capacidad;
         private DataGridViewTextBoxColumn Ubicacion;
         private DataGridViewTextBoxColumn Disponibilidad;
-        private Button button4;
+        private Button btnVolver;
     }
 }
